@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.green-box{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
