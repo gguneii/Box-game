@@ -1,6 +1,5 @@
 let red_box=document.querySelector('.red-box')
 let green_box=document.querySelector('.green-box')
-
 let countX=0;
 let countY=0;
 let x=window.innerWidth
@@ -24,7 +23,8 @@ document.body.addEventListener('keydown',(e)=>{
     }
     if (countX > x/2 - 245 && countX < x/2 + 125 && countY > y/2 - 245 && countY < y/2 + 125 ){
         green_box.style.backgroundColor='yellow'
-    }else{
+    }
+    else{
         green_box.style.backgroundColor='green'
     }
     
